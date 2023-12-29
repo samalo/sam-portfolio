@@ -1,38 +1,100 @@
-.App {
+/*GLOBAL SECTION*/
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box
+}
+
+body{
+  font-family: "Robot", sans-serif;
+  --webkit-font-smoothing: "Robot", sans-serif;
+  --moz-osx-font-smoothing: "Robot", sans-serif;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+  margin: 0;
+}
+
+:root{
+  --primary: #5e3bee;
+  --heading-color: #282938;
+  --bg-shade: #f5fcff;
+  --github: #e62872;
+  --darkblue: #1c1e53;
+  --black: #000;
+  --white: #fff;
+}
+
+.btn{
+  font-family: "Roboto", sans-serif;
+  display: inline-block;
+  padding: 14px 32px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  /* line-height: 2.4rem; */
+  cursor: pointer;
   text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  --webkit-border-radius: 5px;
+  --moz-border-radius: 5px;
+  --ms-border-radius: 5px;
+  --o-border-radius: 5px;
+  transition: background-color 0.5s;
+  --webkit-transition: background-color 0.5s;
+  --moz-transition: background-color 0.5s;
+  --ms-transition: background-color 0.5s;
+  --o-transition: background-color 0.5s;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn-outline-primary{
+  color: var(--primary);
+  background-color: var(--white);
+  border: 1px solid var(--primary);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn-outline-primary:hover{
+  color: var(--white);
+  background-color: var(--primary);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.btn-primary{
+  color: var(--white);
+  background-color: var(--primary);
+  border: 1px solid var(--primary);
+}
+
+.btn-primary:hover{
+  color: var(--primary);
+  background-color: var(--white);
+}
+
+.btn-github{
+  color: var(--white);
+  background-color: var(--github);
+  border: var(--github);
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  box-shadow: 0 1px 2px 0 rgba(16, 24, 40,0.95);
+  gap: 16px;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-github:hover{
+  color: var(--github);
+  background-color: var(--github);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/*GLOBAL SECTION ENDS HERE*/
+
+/*MAIN HEADING SECTION*/
