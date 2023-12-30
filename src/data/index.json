@@ -1,0 +1,35 @@
+{
+    "skills": [
+        {
+            "id": "1",
+            "src": "./img/product-chain-1.png",
+            "title": "Front-End",
+            "description": "Lorem Ipsum dolarum sit amet du prato  grido ne Lorem Ipsum dolarum sit"
+                 
+        },
+
+        {
+            "id": "2",
+            "src": "./img/tag-1.png",
+            "title": "Back-End",
+            "description": "Lorem Ipsum dolarum sit amet du prato  grido ne Lorem Ipsum dolarum sit"
+                 
+        },
+
+        {
+            "id": "3",
+            "src": "./img/feather-pen-2.png",
+            "title": "UI & UX Design",
+            "description": "Lorem Ipsum dolarum sit amet du prato  grido ne Lorem Ipsum dolarum sit"
+                 
+        },
+
+        {
+            "id": "4",
+            "src": "./img/feather-pen-1.png",
+            "title": "Webflow Development",
+            "description": "Lorem Ipsum dolarum sit amet du prato  grido ne Lorem Ipsum dolarum sit"
+                 
+        }
+    ]
+}
