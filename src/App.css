@@ -1,8 +1,8 @@
 /*GLOBAL SECTION*/
 
 *{
-  margin:0;
-  padding:0;
+  /* margin:0;
+  padding:0; */
   box-sizing: border-box
 }
 
@@ -98,3 +98,177 @@ p{
 /*GLOBAL SECTION ENDS HERE*/
 
 /*MAIN HEADING SECTION*/
+
+/*HEADING 1*/
+
+h1{
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67px;
+}
+
+/*HEADING 2*/
+h2{
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+}
+
+/*HEADING 3*/
+h3{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+}
+
+/*PARAGRAPHS TEXT LARGE, MEDIUM AND SMALL*/
+
+/*BODY 1*/
+.text-lg{
+  color: var(--darkblue);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+/*BODY 2*/
+.text-md{
+  color: var(--darkblue);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/*BODY 3*/
+.text-sm{
+  color: var(--black);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+/*SECTION TITLES*/
+/*SKILLS AND ABOUT ME*/
+
+.section--title{
+   color: var(--heading-color);
+   font-size: 21px;
+   text-align: center;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 32px;
+   display: flex;
+   align-items: flex-start;
+}
+
+/*PORTFOLIO TESTIMONIALS AND CONTACT ME*/
+
+.sub--title{
+  color: var(--heading-color);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+/*NAVBAR SECTION STYLE*/
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 85.333px;
+  background-color: var(--white);
+  box-shadow: 0px 5.333px 80px 0 rgba(0,0,0,0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navbar--items > ul {
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  gap: 46.667px;
+  text-decoration: none;
+}
+
+.navbar--items ul > li > a{
+  text-decoration: none;
+
+}
+
+/*NAVBAR CONTENT SECTION STYLE*/
+.navbar--content{
+  color: var(--darkblue);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.navbar--active-content{
+  color: var(--primary);
+}
+
+/*HERO SECTION STYLE*/
+
+.hero--section{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 133.333px 85.333px 133.333px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  background-color: var(--bg-shade);
+}
+
+.hero--section--content-box{
+  display: flex;
+  flex-direction: column;
+  align-items: flex;
+  gap: 32px;
+}
+
+.hero--section--content{
+  display: flex;
+  flex-direction: column;
+  align-items: flex;
+  gap: 21.333px;
+}
+
+.hero--section--content--box > button{
+   margin-top: 21.333px;
+}
+
+.hero--section--title{
+  color: var(--heading-color);
+  font-size: 74.667px;
+  font-weight: 700;
+  line-height: 90px;
+  align-self: stretch;
+}
+
+.hero--section--title--color{
+  color: var(--primary)
+}
+
+
+.hero--section--description{
+  color: var(--darkblue);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.hero--section--img{
+  display: flex;
+}
+
+.hero--section--img > img{
+  width: 100%;
+  height: 100%;
+}
