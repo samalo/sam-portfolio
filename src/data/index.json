@@ -31,5 +31,66 @@
             "description": "Lorem Ipsum dolarum sit amet du prato  grido ne Lorem Ipsum dolarum sit"
                  
         }
+    ],
+
+    "portfolio": [
+        {
+            "id": "1",
+            "src": "./img/placeholder-image.png",
+            "title": "Ahuse",
+            "description": "Lorem Ipsum dolarum sit amet du prato  grido ne Lorem Ipsum dolarum sit",
+            "link": "View in github"
+                 
+        },
+
+        {
+            "id": "2",
+            "src": "./img/placeholder-image-1.png",
+            "title": "App Dashboard",
+            "description": "Lorem Ipsum dolarum sit amet du prato  grido ne Lorem Ipsum dolarum sit",
+            "link": "View in github"
+                 
+        },
+
+        {
+            "id": "3",
+            "src": "./img/placeholder-image-2.png",
+            "title": "Easy Rent",
+            "description": "Lorem Ipsum dolarum sit amet du prato  grido ne Lorem Ipsum dolarum sit",
+            "link": "View in github"
+                 
+        }
+    ],
+
+    "testimonial": [
+        {
+            "id": "1",
+            "count": "5",
+            "src": "./img/avatar-image.png",
+            "description": "Lorem Ipsum dolarum sit amet du prato  grido ne Lorem Ipsum dolarum sit",
+            "author_name": "Dianne Russel",
+            "author_designation": "Starbucks"
+                 
+        },
+
+        {
+            "id": "2",
+            "count": "5",
+            "src": "./img/avatar-image-2.png",
+            "description": "Lorem Ipsum dolarum sit amet du prato  grido ne Lorem Ipsum dolarum sit",
+            "author_name": "Kristine Watson",
+            "author_designation": "Sanlam"
+                 
+        },
+
+        {
+            "id": "3",
+            "count": "5",
+            "src": "./img/avatar-image-3.png",
+            "description": "Lorem Ipsum dolarum sit amet du prato  grido ne Lorem Ipsum dolarum sit",
+            "author_name": "Josh Needham",
+            "author_designation": "The Coffee Company"
+                 
+        }
     ]
 }
