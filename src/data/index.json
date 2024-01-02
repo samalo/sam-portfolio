@@ -76,7 +76,7 @@
         {
             "id": "2",
             "count": "5",
-            "src": "./img/avatar-image-2.png",
+            "src": "./img/avatar-image-1.png",
             "description": "Lorem Ipsum dolarum sit amet du prato  grido ne Lorem Ipsum dolarum sit",
             "author_name": "Kristine Watson",
             "author_designation": "Sanlam"
@@ -86,7 +86,7 @@
         {
             "id": "3",
             "count": "5",
-            "src": "./img/avatar-image-3.png",
+            "src": "./img/avatar-image-2.png",
             "description": "Lorem Ipsum dolarum sit amet du prato  grido ne Lorem Ipsum dolarum sit",
             "author_name": "Josh Needham",
             "author_designation": "The Coffee Company"
